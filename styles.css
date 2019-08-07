@@ -8,6 +8,7 @@
     padding-top: 200px!important;
     padding-bottom: 300px;
     margin-bottom: 150px;
+    padding: 7em;
 }
 
 
@@ -48,4 +49,8 @@
     margin: auto;
     width: 30%;
     padding-bottom: 50px;
+}
+
+.footer {
+    font: 10px;
 }
