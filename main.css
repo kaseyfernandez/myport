@@ -1,15 +1,37 @@
-#header {
-    padding: 8em;
-    max-width: 80%;
+
+body{
+    width: 100%;
 }
 
 #header-image {
     max-width: 100%;
 }
 
+#header-container {
+    padding: 2.5em;
+}
+
+#main-container{
+    /* max-width: 80%; */
+    margin: 0 auto; 
+}
+
 h1 {
 font-family: Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
-font-size: 20px;
+font-size: 25px;
+font-weight: 600;
+padding-bottom: 15px;
+padding-top: 15px;
+text-align: center;
+}
+
+h2 {
+font-family: Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+font-weight: 600;
+padding-bottom: 15px;
+padding-top: 15px;
+text-align: center;
 }
 
 p{
@@ -38,34 +60,59 @@ background-color: #FECCA9;
 
 footer{
     background-color: #E6E5E5;
+    padding: 3em;
 }
 
-#main-container{
-    /* max-width: 1000px; */
+.center-container {
+
     margin: 0 auto; 
 }
-
 .center-content{
     text-align: center;
     display: block;
 }
 
 .main-text{
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.projects-cards{
+    padding-left: 2em;
+    padding-right: 2em;
     padding-top: 3em;
     padding-bottom: 3em;
 }
 
-.projects-cards{
-    padding: 3em; 
-}
-
 .project-image{
-    width: 60%;
-    max-width: 25em;
+    width: 80%;
+    max-width: 35em;
+    height: auto;
 }
 
 .profile-pic{
     border-radius: 50%;
+    max-width: 25em;
 }
+
+@media screen and (max-width: 400px) {
+    .main-text {
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+        padding-top: 3em;
+        padding-bottom: 3em;
+        line-height: 1.5;
+        text-align: center;
+    }
+  }
+
+@media screen and (min-width: 992px) {
+    .main-text {
+      width: 70%;
+    }
+  }
+
