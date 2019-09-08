@@ -1,113 +1,66 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>KM Fern Portfolio</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-        <link rel="stylesheet" href="w3.css">
-        <link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
-    <body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <!-- Navbar (sit on top) -->
-        <div class="w3-top">
-            <div class="w3-bar w3-white w3-wide w3-padding w3-card-2">
-                <a href="#home" class="w3-bar-item w3-button"><b>Kasey</b> Fernandez</a>
-                <!-- Float links to the right. Hide them on small screens -->
-                <div class="w3-right w3-hide-small">
-                
-                <a href="#about" class="w3-bar-item w3-button">About</a>
-                <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-                <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-                </div>
-            </div>
-        </div>
+    <title></title>
 
-        <!-- Header -->
-        <header div class="main-title w3-display-container w3-content w3-padding-32 style="max-width:1000px; align="center" id="home">
-            <img src="img/helawi.gif" class="img-responsive margin" width="982.218" height="368.120" alt="Image">
+    <link rel="stylesheet" href="main.css" />
+    <link rel="reset" href="reset.css" />
+    <link rel="icon" href="images/favicon.png" />
+  </head>
+
+  <body>
+      <div id="main-container">
+        <header>
+        <img id="header-image" src="img/helawi.gif" alt="hello" /> 
         </header>
-
-            <!-- Team Section -->
-            <div class="about w3-container w3-padding-32 " id="about">
-                <div class="container-fluid bg-grey">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <img src="img/profile.jpg" alt="KM Fern" class="img-circle" alt="Kasey Fernandez" width="304" height="304">
-                        </div>
-                        
-                        <div class="bio col-sm-8">
-                            <h3>
-                                <p>Hi! I'm Kasey.</p>
-                            </h3>
-
-                            <p class="w3-opacity"></p>
-                                <p>UX/UI and Instructional Designer</p>
-                                <p>Passions include user observation and research, clean and simple design. Always searching for inspiration, data and opinions to optimize and simplify. Fan of motion images, machine learning, board games and houseplants.
-                                </p>
-                                <button class="w3-button w3-light-grey w3-block"><a href="mailto:kmfern808@gmail.com">Contact</a></button>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project Section -->
-            <div class="w3-container w3-padding-32 w3-display-container w3-content w3-padding-32 style="max-width:1000px; align="center" id="projects">
-                    <h3>
-                            <img src="img/projects.png" class="img-responsive margin" align="center" style="widows: 50%" alt="Image">
-                        </h3>
-            <div class="row-one">
-                <div > 
-                  <p></p>
-                  <a href="https://xd.adobe.com/view/fee2eb3f-4be5-4ab8-4fe0-4343bd8bccf3-88d3/" target="_blank">
-                     <img src="img/maynooth.png" class="img-responsive margin" style="width:100%" alt="Image"></a>
-                </div>
-                <div >
-                <p></p>
-                <a href="https://121library.com/" target="_blank">
-                <img src="img/121library.png" class="img-responsive margin" style="width:100%" alt="Image"></a>
-                </div>
-                
-                <div > 
-                <p></p>
-                <a href="http://www.kmfern.com/second-life-taro-simulation.html" target="_blank">
-                <img src="img/2ndtaro.jpg" class="img-responsive margin" style="width:100%" alt="Image"></a>
-                </div>
-            </div>
-
-
-            </div>
-
-        <!-- Contact Section -->
-        <div id="contact">
-           <div class="w3-center social-media">
-             <img src="img/icons8-Gmail-64.png" width="52" height="52" />
-             </a>
-             <a href="https://www.linkedin.com/in/kaseyfernandez/" target="_blank">
-             <img title="LinkedIn" alt="LinkedIn" src="img/icons8-LinkedIn-64.png" width="50" height="50" />
-             </a>
-             <a href="https://drive.google.com/file/d/0B8prPJ_8N1YqU1RIR1F5UTM2WHc/view?usp=sharing" target="_blank">
-             <img src="img/icons8-Contact-64.png" width="54" height="54" />
-             </a>
-             <a href="https://twitter.com/1142km" target="_blank">
-             <img title="Twitter" alt="Twitter" src="img/icons8-Twitter-64 (1).png" width="50" height="50" />
-              </a>
-            </div>
+        <div id="bio" class="center-content projects-cards">
+            <img class="profile-pic project-image" src="img/profile.jpg" alt="Kasey Fernandez">
+            <h1>   Hi! I'm Kasey. </h1>
+            <p>I am a UX/UI Designer in Portland, OR. </p>
         </div>
-        
-        <!-- End page content -->
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    </body>
-
-    <!-- Footer -->
-    <footer class="w3-center w3-black w3-padding-16">
-    <p> © Kasey Fernandez 2019 </p> 
-    </footer>
-
+        <div id="projects" class="center-content projects-cards">
+            <h1>Projects</h1>
+        </div>
+        <div id="LibraryImage" class="center-content projects-cards">
+            <img class="project-image" src="img/121Library@2x.png">
+        </div>
+        <div id="LibraryDescription" class="main-text">
+            <h1>121Library</h1>
+            <p>121Library features a collection of resources that I designed for the Tigard Tualatin School District. I coordinated with peers, students and admin to improve and refine the design. Database usage has skyrocketed among all K-12 user groups since its district wide rollout in January 2018.</p> 
+        </div>
+        <div id="MaynoothImage" class="center-content projects-cards">
+            <img class="project-image" src="img/Maynooth@2x.png">
+        </div>
+        <div id="MaynoothDescription" class="main-text">
+            <h1>Maynooth HD Protoype</h1>
+            <p>This prototype was created using Adobe XD, Photoshop and Illustrator. </p>
+        </div>
+        <div id="SecondLifeImage" class="center-content projects-cards">
+            <img class="project-image" src="img/SecondLife.png">
+        </div>
+        <div id="SecondLifeDescription" class="main-text">
+            <h1>Second Life Learning Module</h1>
+            <p>As I was working towards my Master’s Degree in Educational Technology (Instructional Design) I created a learning module in the virtual realm of second life. The whole experience was quite memorable and immersive and it was my first taste of three dimensional design. </p>
+        </div>
+        <div id="SXSWEDUImage" class="center-content projects-cards">
+            <img class="project-image" src="img/SXSWedu.png">
+        </div>
+        <div id="SXSWEDUDescription" class="main-text">
+            <h1>Easier Than Google: My Digital Library Renovation</h1>
+            <p>In March 2019 I had the honor of sharing 121Library at SXSWedu. It was a brilliant international conference where I shared web development tips with educators interested in amping up their classroom and library websites.</p>
+        </div>
+    </div>
+  </body>
+  <footer class="center-content">
+        <h1>Let's Connect!</h1>
+        <img src="img/icons8-Gmail-64.png">
+        <img src="img/icons8-LinkedIn-64.png">
+        <img src="img/icons8-Twitter-64 (1).png">
+        <img src="img/icons8-Resume-64.png">
+        <p>© Kasey Fernandez 2019</p>
+  </footer>
 </html>

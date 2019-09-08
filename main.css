@@ -1,0 +1,71 @@
+#header {
+    padding: 8em;
+    max-width: 80%;
+}
+
+#header-image {
+    max-width: 100%;
+}
+
+h1 {
+font-family: Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+}
+
+p{
+    font-family: Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#bio {
+background-color: #D6F4E4;
+}
+
+#LibraryImage {
+background-color: #FECCA9;
+}
+
+#MaynoothImage {
+    background-color: #F8D4FC;
+}
+
+#SecondLifeImage{
+    background-color: #D2F7FF;
+}
+
+#SXSWEDUImage{
+    background-color: #FFE66B;
+}
+
+footer{
+    background-color: #E6E5E5;
+}
+
+#main-container{
+    /* max-width: 1000px; */
+    margin: 0 auto; 
+}
+
+.center-content{
+    text-align: center;
+    display: block;
+}
+
+.main-text{
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.projects-cards{
+    padding: 3em; 
+}
+
+.project-image{
+    width: 60%;
+    max-width: 25em;
+}
+
+.profile-pic{
+    border-radius: 50%;
+}
