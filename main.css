@@ -1,16 +1,25 @@
+a {
+    text-decoration: none;
+    color: #000000
+}
+
+a:hover{
+    color: #00D2FF
+}
 
 body{
     width: 100%;
 }
 
 #header-image {
-    max-width: 90%;
+    max-width: 95%;
     padding-top: 2em;
     padding-bottom: 2em;
 }
 
+
 #header-container {
-    padding: 2.5em;
+    padding: 1em;
 }
 
 h1 {
@@ -57,7 +66,7 @@ background-color: #FECCA9;
 
 footer{
     background-color: #E6E5E5;
-    padding: 3em;
+    padding: 3em; 
 }
 
 .center-container {
@@ -105,10 +114,13 @@ footer{
     font-size: 15px;
 }
 
+.footer-image {
+    max-width: 5em;
+}
 
 
 /* Small Mobile only */
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 200px) {
     .main-text {
         padding-left: 0.75em;
         padding-right: 0.75em;
@@ -117,22 +129,32 @@ footer{
         line-height: 1.5;
         text-align: center;
     }
-
     #social-links {
         max-width: 11em;
-    }
-    .footer-image {
-        max-width: 5em;
-    }
   }
 
 
 /* Tablet */
 @media screen and (min-width: 600px) {
+    .main-text{
+        font-size: 18px
+    }
+    #header-container {
+        padding: 1.5em;
+    }
+    #social-links {
+        max-width: 25em;
+    }
 }
 
 /* Laptop */
 @media screen and (min-width: 800px) {
+    .main-text{
+        font-size: 20px
+    }
+    #social-links {
+        max-width: 25em;
+    }
 }
 
 
@@ -158,7 +180,7 @@ footer{
     }
 
     #header-image {
-        max-width: 75%;
+        max-width: 70%;
     }
     .footer-image {
         padding-left: 0.75em;
@@ -190,5 +212,8 @@ footer{
         font-size: 25px;
         padding-bottom: 2em;
     }
+    #social-links {
+        max-width: 25em;
+    }
   }
-
+}
