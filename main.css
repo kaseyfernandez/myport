@@ -1,4 +1,5 @@
 a {
+    transition: all 0.15s ease-out;
     text-decoration: none;
     color: #000000
 }
@@ -137,7 +138,9 @@ footer{
 /* Tablet */
 @media screen and (min-width: 600px) {
     .main-text{
-        font-size: 18px
+        font-size: 18px;
+        width: 80%;
+        
     }
     #header-container {
         padding: 1.5em;
